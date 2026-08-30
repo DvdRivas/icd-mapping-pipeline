@@ -297,7 +297,7 @@ def _print_stats(processed: int, stats: dict, judge_stats: dict | None) -> None:
 
 
 def find_run_csvs() -> list[str]:
-    paths = [SCRIPT_DIR / f"dataset-run{i}.csv" for i in range(1, N_RUNS + 1)]
+    paths = [SCRIPT_DIR / f"run{i}.csv" for i in range(1, N_RUNS + 1)]
     if missing := [p.name for p in paths if not p.exists()]:
         print(f"[CSV] Notice: not found {missing}")
     return [str(p) for p in paths if p.exists()]
@@ -336,7 +336,7 @@ def main() -> None:
 
     csv_paths = find_run_csvs()
     if not csv_paths:
-        print(f"[ERROR] No dataset-run{{1..{N_RUNS}}}.csv in {SCRIPT_DIR}")
+        print(f"[ERROR] No run{{1..{N_RUNS}}}.csv in {SCRIPT_DIR}")
         return
     print(f"[CSV] Iterative execution: {len(csv_paths)} runs found\n")
 

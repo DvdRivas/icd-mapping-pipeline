@@ -1,0 +1,305 @@
+
+##############################################################################
+# SESSION START  2026-08-29 19:47:14
+#-----------------------------------------------------------------------------
+#   phase            : reverse lookup + consistency
+#   icd version      : ICD-10
+#   model            : medgemma-27b-it
+#   lms host         : 10.8.0.45:1234
+#   temperature      : 0.0
+#   runs             : 10
+#   rows per run     : all
+#   workers          : 8
+#   overwrite        : False
+#   eval NF rows     : False
+#   catalogue        : 12771 classes, version 2019-covid-expanded
+#   catalogue source : /home/rivas/Agents/Etiquetado ICD Clean/icd10/icd102019en.xml
+##############################################################################
+
+[LLM] Host: 10.8.0.45:1234
+[LLM] Connecting to: medgemma-27b-it
+[LLM] Connected
+
+
+==============================================================================
+= RUN 1/10  ·  run1.csv
+= started 2026-08-29 19:47:15
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run1.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 134 (81.7%)
+  Inconsistent  (no)         : 30 (18.3%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 2/10  ·  run2.csv
+= started 2026-08-29 19:47:51
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run2.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 135 (82.3%)
+  Inconsistent  (no)         : 29 (17.7%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 3/10  ·  run3.csv
+= started 2026-08-29 19:48:28
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run3.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 165 (82.1%)
+  NF (local dictionary)      : 36 (17.9%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 135 (81.8%)
+  Inconsistent  (no)         : 30 (18.2%)
+  Skipped for being NF       : 36
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 4/10  ·  run4.csv
+= started 2026-08-29 19:49:04
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run4.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 134 (81.7%)
+  Inconsistent  (no)         : 30 (18.3%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 5/10  ·  run5.csv
+= started 2026-08-29 19:49:38
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run5.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 135 (82.3%)
+  Inconsistent  (no)         : 29 (17.7%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 6/10  ·  run6.csv
+= started 2026-08-29 19:50:15
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run6.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 165 (82.1%)
+  NF (local dictionary)      : 36 (17.9%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 135 (81.8%)
+  Inconsistent  (no)         : 30 (18.2%)
+  Skipped for being NF       : 36
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 7/10  ·  run7.csv
+= started 2026-08-29 19:50:52
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run7.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 165 (82.1%)
+  NF (local dictionary)      : 36 (17.9%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 165
+  Consistent    (yes)        : 134 (81.2%)
+  Inconsistent  (no)         : 31 (18.8%)
+  Skipped for being NF       : 36
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 8/10  ·  run8.csv
+= started 2026-08-29 19:51:29
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run8.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 163 (81.1%)
+  NF (local dictionary)      : 38 (18.9%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 163
+  Consistent    (yes)        : 133 (81.6%)
+  Inconsistent  (no)         : 30 (18.4%)
+  Skipped for being NF       : 38
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 9/10  ·  run9.csv
+= started 2026-08-29 19:52:05
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run9.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 134 (81.7%)
+  Inconsistent  (no)         : 30 (18.3%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+==============================================================================
+= RUN 10/10  ·  run10.csv
+= started 2026-08-29 19:52:40
+==============================================================================
+[NF]  Dictionary loaded: 39 codes
+
+[CSV] 201 rows | 201 with icd10_code | 201 to resolve
+
+
+[LLM] 201 rows to evaluate
+
+[CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd10/run10.csv
+
+── Reverse lookup statistics ───────────────────────────
+  Processed                  : 201
+  Resolved (catalogue)       : 164 (81.6%)
+  NF (local dictionary)      : 37 (18.4%)
+  Unresolved                 : 0 (0.0%)
+────────────────────────────────────────────────────────
+
+── Consistency diagnosis_en vs icd10_lookup ────────────
+  Evaluated by the LLM       : 164
+  Consistent    (yes)        : 133 (81.1%)
+  Inconsistent  (no)         : 31 (18.9%)
+  Skipped for being NF       : 37
+────────────────────────────────────────────────────────
+
+
+[session closed 2026-08-29 19:53:17]
+
