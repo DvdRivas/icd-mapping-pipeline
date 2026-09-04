@@ -5,11 +5,11 @@
 
 [NF]  Dictionary loaded: 0 entries
 
-[Chapters] Cache loaded: 0 categories
+[Chapters] Cache loaded: 151 categories
 
 
 ##############################################################################
-# SESSION START  2026-08-29 21:06:05
+# SESSION START  2026-09-03 19:37:47
 #-----------------------------------------------------------------------------
 #   icd version      : ICD-11
 #   model            : medgemma-27b-it
@@ -31,27 +31,25 @@
 
 ==============================================================================
 = RUN 1/10  ·  run1.csv
-= started 2026-08-29 21:06:06
+= started 2026-09-03 19:37:48
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 105 ( 52.2%)
-  NF (not found)                  :  28 ( 13.9%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 128 ( 49.0%)
+  NF (not found)                  :  37 ( 14.2%)
   --------------------------------   -----------
-  With ICD-11 code                : 173 ( 86.1%)
+  With ICD-11 code                : 224 ( 85.8%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 190 of 201
-  Resolved by complete phrase : 102
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 133
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run1.csv
@@ -59,27 +57,25 @@
 
 ==============================================================================
 = RUN 2/10  ·  run2.csv
-= started 2026-08-29 21:09:12
+= started 2026-09-03 19:41:18
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  56 ( 27.9%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 130 ( 49.8%)
+  NF (not found)                  :  35 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 226 ( 86.6%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 190 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 70   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 135
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run2.csv
@@ -87,27 +83,25 @@
 
 ==============================================================================
 = RUN 3/10  ·  run3.csv
-= started 2026-08-29 21:11:51
+= started 2026-09-03 19:44:47
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  26 ( 12.9%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   4 (  1.5%)
+  WHO /search pool + LLM chooses  : 130 ( 49.8%)
+  NF (not found)                  :  36 ( 13.8%)
   --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
+  With ICD-11 code                : 225 ( 86.2%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 190 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 134
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run3.csv
@@ -115,27 +109,27 @@
 
 ==============================================================================
 = RUN 4/10  ·  run4.csv
-= started 2026-08-29 21:14:25
+= started 2026-09-03 19:48:07
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
 
     [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 106 ( 52.7%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 129 ( 49.4%)
+  NF (not found)                  :  36 ( 13.8%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 225 ( 86.2%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 190 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 240 of 261
+  Resolved by complete phrase : 134
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run4.csv
@@ -143,27 +137,27 @@
 
 ==============================================================================
 = RUN 5/10  ·  run5.csv
-= started 2026-08-29 21:16:59
+= started 2026-09-03 19:51:31
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
 
     [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 106 ( 52.7%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 130 ( 49.8%)
+  NF (not found)                  :  35 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 226 ( 86.6%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 190 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 240 of 261
+  Resolved by complete phrase : 135
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run5.csv
@@ -171,25 +165,25 @@
 
 ==============================================================================
 = RUN 6/10  ·  run6.csv
-= started 2026-08-29 21:19:36
+= started 2026-09-03 19:54:53
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 106 ( 52.7%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   4 (  1.5%)
+  WHO /search pool + LLM chooses  : 131 ( 50.2%)
+  NF (not found)                  :  35 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 226 ( 86.6%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 135
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run6.csv
@@ -197,27 +191,27 @@
 
 ==============================================================================
 = RUN 7/10  ·  run7.csv
-= started 2026-08-29 21:22:10
+= started 2026-09-03 19:58:12
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
 
     [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  26 ( 12.9%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  71 ( 27.2%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   4 (  1.5%)
+  WHO /search pool + LLM chooses  : 131 ( 50.2%)
+  NF (not found)                  :  36 ( 13.8%)
   --------------------------------   -----------
-  With ICD-11 code                : 175 ( 87.1%)
+  With ICD-11 code                : 225 ( 86.2%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 135
+  Resolved by disease name    : 90   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run7.csv
@@ -225,25 +219,25 @@
 
 ==============================================================================
 = RUN 8/10  ·  run8.csv
-= started 2026-08-29 21:24:47
+= started 2026-09-03 20:01:33
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 106 ( 52.7%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 129 ( 49.4%)
+  NF (not found)                  :  36 ( 13.8%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 225 ( 86.2%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 134
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run8.csv
@@ -251,25 +245,27 @@
 
 ==============================================================================
 = RUN 9/10  ·  run9.csv
-= started 2026-08-29 21:27:23
+= started 2026-09-03 20:08:47
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
+
+    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  56 ( 27.9%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   5 (  2.5%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   4 (  1.5%)
+  WHO /search pool + LLM chooses  : 131 ( 50.2%)
+  NF (not found)                  :  35 ( 13.4%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 226 ( 86.6%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 104
-  Resolved by disease name    : 70   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 135
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run9.csv
@@ -277,34 +273,32 @@
 
 ==============================================================================
 = RUN 10/10  ·  run10.csv
-= started 2026-08-29 21:30:01
+= started 2026-09-03 20:15:51
 ==============================================================================
-[CSV] 201 rows loaded | diagnosis_en: 201
+[CSV] 261 rows loaded | diagnosis_en: 261
 
-
-    [LLM-disease] Answer discarded: 'Metastatic squamous cell carcinoma of the lung'
 
 ── Matching statistics ─────────────────────────────────
-  Diagnoses processed         : 201
-  Exact lexicon (complete)        :   5 (  2.5%)
-  Exact lexicon (name)            :  57 ( 28.4%)
-  Fuzzy lexicon + LLM validates (complete):   1 (  0.5%)
-  Fuzzy lexicon + LLM validates (name):   4 (  2.0%)
-  WHO /search pool + LLM chooses  : 107 ( 53.2%)
-  NF (not found)                  :  27 ( 13.4%)
+  Diagnoses processed         : 261
+  Exact lexicon (complete)        :  13 (  5.0%)
+  Exact lexicon (name)            :  72 ( 27.6%)
+  Fuzzy lexicon + LLM validates (complete):   6 (  2.3%)
+  Fuzzy lexicon + LLM validates (name):   5 (  1.9%)
+  WHO /search pool + LLM chooses  : 129 ( 49.4%)
+  NF (not found)                  :  36 ( 13.8%)
   --------------------------------   -----------
-  With ICD-11 code                : 174 ( 86.6%)
+  With ICD-11 code                : 225 ( 86.2%)
 ────────────────────────────────────────────────────────
-  Name differs from phrase    : 191 of 201
-  Resolved by complete phrase : 103
-  Resolved by disease name    : 71   <- gain from step 0
+  Name differs from phrase    : 241 of 261
+  Resolved by complete phrase : 134
+  Resolved by disease name    : 91   <- gain from step 0
 ────────────────────────────────────────────────────────
 
 [CSV] Updated in place: /home/rivas/Agents/Etiquetado ICD Clean/icd11/run10.csv
 
-[NF]  0 -> 28 entries (+28), saved to /home/rivas/Agents/Etiquetado ICD Clean/icd11/nf_dictionary.json
-[Chapters] Cache saved: 151 categories
+[NF]  0 -> 37 entries (+37), saved to /home/rivas/Agents/Etiquetado ICD Clean/icd11/nf_dictionary.json
+[Chapters] Cache saved: 187 categories
 
 
-[session closed 2026-08-29 21:32:34]
+[session closed 2026-09-03 20:23:26]
 

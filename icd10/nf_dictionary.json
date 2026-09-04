@@ -2,196 +2,256 @@
   "euglycemic diabetic ketoacidosis due to sglt2 inhibitor": {
     "code": "NF-0001",
     "label": "Euglycemic diabetic ketoacidosis due to SGLT2 inhibitor",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "eosinophilic meningitis due to angiostrongylus cantonensis": {
     "code": "NF-0002",
     "label": "Eosinophilic meningitis due to Angiostrongylus cantonensis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "metastatic small cell lung carcinoma with myelophthisis": {
     "code": "NF-0003",
     "label": "Metastatic small cell lung carcinoma with myelophthisis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "phospholipase a2 receptor pla2r associated membranous nephropathy": {
     "code": "NF-0004",
     "label": "Phospholipase A2 receptor (PLA2R)-associated membranous nephropathy",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "reninoma": {
     "code": "NF-0005",
     "label": "Reninoma",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "powassan virus encephalitis": {
     "code": "NF-0006",
     "label": "Powassan virus encephalitis",
-    "first_seen": "2026-08-29"
-  },
-  "periprosthetic joint infection due to mycobacterium bovis bcg": {
-    "code": "NF-0007",
-    "label": "Periprosthetic joint infection due to Mycobacterium bovis BCG",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "alpha gal syndrome due to amblyomma americanum sensitization": {
-    "code": "NF-0008",
+    "code": "NF-0007",
     "label": "Alpha-gal syndrome due to Amblyomma americanum sensitization",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
+  },
+  "periprosthetic joint infection due to mycobacterium bovis bcg": {
+    "code": "NF-0008",
+    "label": "Periprosthetic joint infection due to Mycobacterium bovis BCG",
+    "first_seen": "2026-09-03"
   },
   "primary diffuse meningeal melanomatosis": {
     "code": "NF-0009",
     "label": "Primary diffuse meningeal melanomatosis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "coronary subclavian steal syndrome after coronary artery bypass grafting": {
     "code": "NF-0010",
     "label": "Coronary-subclavian steal syndrome after coronary artery bypass grafting",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "tumoral melanosis after immunotherapy": {
     "code": "NF-0011",
     "label": "Tumoral melanosis after immunotherapy",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "sezary syndrome": {
     "code": "NF-0012",
     "label": "Sezary syndrome",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "boerhaave syndrome spontaneous esophageal rupture": {
     "code": "NF-0013",
     "label": "Boerhaave syndrome (spontaneous esophageal rupture)",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "herpes simplex virus esophagitis in an immunocompetent patient": {
     "code": "NF-0014",
     "label": "Herpes simplex virus esophagitis in an immunocompetent patient",
-    "first_seen": "2026-08-29"
-  },
-  "acrometastasis in metastatic squamous cell lung cancer": {
-    "code": "NF-0015",
-    "label": "Acrometastasis in metastatic squamous cell lung cancer",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "stercoral colitis due to chronic fecal impaction": {
-    "code": "NF-0016",
+    "code": "NF-0015",
     "label": "Stercoral colitis due to chronic fecal impaction",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "majocchi granuloma due to trichophyton tonsurans": {
-    "code": "NF-0017",
+    "code": "NF-0016",
     "label": "Majocchi granuloma due to Trichophyton tonsurans",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
+  },
+  "acrometastasis in metastatic squamous cell lung cancer": {
+    "code": "NF-0017",
+    "label": "Acrometastasis in metastatic squamous cell lung cancer",
+    "first_seen": "2026-09-03"
   },
   "spironolactone induced gynecomastia": {
     "code": "NF-0018",
     "label": "Spironolactone-induced gynecomastia",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "bronchial anthracosis from prolonged biomass smoke and environmental dust exposure": {
     "code": "NF-0019",
     "label": "Bronchial anthracosis from prolonged biomass smoke and environmental dust exposure",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "urethral condyloma acuminatum due to human papillomavirus type 11 in an immunocompromised patient": {
     "code": "NF-0020",
     "label": "Urethral condyloma acuminatum due to human papillomavirus type 11 in an immunocompromised patient",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "neutrophilic eccrine hidradenitis due to chemotherapy in acute myeloid leukemia": {
     "code": "NF-0021",
     "label": "Neutrophilic eccrine hidradenitis due to chemotherapy in acute myeloid leukemia",
-    "first_seen": "2026-08-29"
-  },
-  "intracardiac cement embolism complicating vertebral kyphoplasty": {
-    "code": "NF-0022",
-    "label": "Intracardiac cement embolism complicating vertebral kyphoplasty",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "symblepharon in idiopathic linear iga bullous dermatosis with ocular involvement": {
-    "code": "NF-0023",
+    "code": "NF-0022",
     "label": "Symblepharon in idiopathic linear IgA bullous dermatosis with ocular involvement",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "pearly penile papules normal anatomical variant": {
-    "code": "NF-0024",
+    "code": "NF-0023",
     "label": "Pearly penile papules (normal anatomical variant)",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
-  "grade 4 hypertensive retinopathy in malignant hypertension with acute kidney injury": {
-    "code": "NF-0025",
-    "label": "Grade 4 hypertensive retinopathy in malignant hypertension with acute kidney injury",
-    "first_seen": "2026-08-29"
+  "intracardiac cement embolism complicating vertebral kyphoplasty": {
+    "code": "NF-0024",
+    "label": "Intracardiac cement embolism complicating vertebral kyphoplasty",
+    "first_seen": "2026-09-03"
   },
   "pyostomatitis vegetans in crohn disease": {
-    "code": "NF-0026",
+    "code": "NF-0025",
     "label": "Pyostomatitis vegetans in Crohn disease",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "post traumatic morel lavallee lesion": {
-    "code": "NF-0027",
+    "code": "NF-0026",
     "label": "Post-traumatic Morel-Lavallee lesion",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "midbrain germinoma with light near pupillary dissociation": {
-    "code": "NF-0028",
+    "code": "NF-0027",
     "label": "Midbrain germinoma with light-near pupillary dissociation",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
+  },
+  "carcinoma en cuirasse due to cutaneous metastasis of breast cancer": {
+    "code": "NF-0028",
+    "label": "Carcinoma en cuirasse due to cutaneous metastasis of breast cancer",
+    "first_seen": "2026-09-03"
   },
   "free floating iris pigment epithelial cyst in the vitreous": {
     "code": "NF-0029",
     "label": "Free-floating iris pigment epithelial cyst in the vitreous",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
-  "carcinoma en cuirasse due to cutaneous metastasis of breast cancer": {
+  "cutaneous and mucosal hyperpigmentation due to vitamin b12 deficiency secondary to autoimmune gastritis": {
     "code": "NF-0030",
-    "label": "Carcinoma en cuirasse due to cutaneous metastasis of breast cancer",
-    "first_seen": "2026-08-29"
+    "label": "Cutaneous and mucosal hyperpigmentation due to vitamin B12 deficiency secondary to autoimmune gastritis",
+    "first_seen": "2026-09-03"
   },
   "invasive vulvar squamous cell carcinoma associated with human papillomavirus": {
     "code": "NF-0031",
     "label": "Invasive vulvar squamous cell carcinoma associated with human papillomavirus",
-    "first_seen": "2026-08-29"
-  },
-  "cutaneous and mucosal hyperpigmentation due to vitamin b12 deficiency secondary to autoimmune gastritis": {
-    "code": "NF-0032",
-    "label": "Cutaneous and mucosal hyperpigmentation due to vitamin B12 deficiency secondary to autoimmune gastritis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "bilateral page kidney due to extrinsic subcapsular compression secondary to mucinous rectal adenocarcinoma": {
-    "code": "NF-0033",
+    "code": "NF-0032",
     "label": "Bilateral Page kidney due to extrinsic subcapsular compression secondary to mucinous rectal adenocarcinoma",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "risk of acquiring hiv infection in an adolescent evaluation for pre exposure prophylaxis": {
-    "code": "NF-0034",
+    "code": "NF-0033",
     "label": "Risk of acquiring HIV infection in an adolescent (evaluation for pre-exposure prophylaxis)",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "bartonella henselae endocarditis with cryoglobulinemic vasculitis and associated glomerulonephritis": {
-    "code": "NF-0035",
+    "code": "NF-0034",
     "label": "Bartonella henselae endocarditis with cryoglobulinemic vasculitis and associated glomerulonephritis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "human herpesvirus 6 hhv 6 encephalitis after car t therapy for diffuse large b cell lymphoma": {
-    "code": "NF-0036",
+    "code": "NF-0035",
     "label": "Human herpesvirus 6 (HHV-6) encephalitis after CAR-T therapy for diffuse large B-cell lymphoma",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "anti iglon5 antibody associated neurological disorder with rem sleep behavior disorder and motor neuron syndrome": {
-    "code": "NF-0037",
+    "code": "NF-0036",
     "label": "Anti-IgLON5 antibody-associated neurological disorder with REM sleep behavior disorder and motor neuron syndrome",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
+  },
+  "functional seizures functional neurologic disorder": {
+    "code": "NF-0037",
+    "label": "Functional seizures (functional neurologic disorder)",
+    "first_seen": "2026-09-03"
+  },
+  "human granulocytic anaplasmosis": {
+    "code": "NF-0038",
+    "label": "Human granulocytic anaplasmosis",
+    "first_seen": "2026-09-03"
+  },
+  "juvenile granulosa cell tumor of the ovary": {
+    "code": "NF-0039",
+    "label": "Juvenile granulosa-cell tumor of the ovary",
+    "first_seen": "2026-09-03"
+  },
+  "hepatic adenoma, inflammatory type, with ischemic necrosis and hemorrhage": {
+    "code": "NF-0040",
+    "label": "Hepatic adenoma, inflammatory type, with ischemic necrosis and hemorrhage",
+    "first_seen": "2026-09-03"
+  },
+  "paraneoplastic vasculitis of the central nervous system associated with primary lung adenocarcinoma": {
+    "code": "NF-0041",
+    "label": "Paraneoplastic vasculitis of the central nervous system associated with primary lung adenocarcinoma",
+    "first_seen": "2026-09-03"
+  },
+  "doege potter syndrome": {
+    "code": "NF-0042",
+    "label": "Doege-Potter syndrome",
+    "first_seen": "2026-09-03"
+  },
+  "noncirrhotic hyperammonemia after roux en y gastric bypass": {
+    "code": "NF-0043",
+    "label": "Noncirrhotic hyperammonemia after Roux-en-Y gastric bypass",
+    "first_seen": "2026-09-03"
+  },
+  "24 hydroxylase deficiency due to a homozygous cyp24a1 variant": {
+    "code": "NF-0044",
+    "label": "24-Hydroxylase deficiency due to a homozygous CYP24A1 variant",
+    "first_seen": "2026-09-03"
+  },
+  "myeloperoxidase antineutrophil cytoplasmic antibody associated vasculitis": {
+    "code": "NF-0045",
+    "label": "Myeloperoxidase antineutrophil cytoplasmic antibody-associated vasculitis",
+    "first_seen": "2026-09-03"
+  },
+  "metastatic adenoid cystic carcinoma originating in the breast": {
+    "code": "NF-0046",
+    "label": "Metastatic adenoid cystic carcinoma originating in the breast",
+    "first_seen": "2026-09-03"
+  },
+  "brain abscess due to listeria monocytogenes infection": {
+    "code": "NF-0047",
+    "label": "Brain abscess due to Listeria monocytogenes infection",
+    "first_seen": "2026-09-03"
+  },
+  "trichobezoar with duodenal extension rapunzel syndrome": {
+    "code": "NF-0048",
+    "label": "Trichobezoar with duodenal extension (Rapunzel syndrome)",
+    "first_seen": "2026-09-03"
+  },
+  "stiff person syndrome associated with glutamic acid decarboxylase 65 autoantibodies": {
+    "code": "NF-0049",
+    "label": "Stiff-person syndrome associated with glutamic acid decarboxylase 65 autoantibodies",
+    "first_seen": "2026-09-03"
   },
   "amoxicillin induced rash in epstein barr virus infectious mononucleosis": {
-    "code": "NF-0038",
+    "code": "NF-0050",
     "label": "Amoxicillin-induced rash in Epstein-Barr virus infectious mononucleosis",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   },
   "immune checkpoint inhibitor pembrolizumab induced diabetes mellitus in metastatic melanoma": {
-    "code": "NF-0039",
+    "code": "NF-0051",
     "label": "Immune checkpoint inhibitor (pembrolizumab)-induced diabetes mellitus in metastatic melanoma",
-    "first_seen": "2026-08-29"
+    "first_seen": "2026-09-03"
   }
 }
